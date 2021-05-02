@@ -10,65 +10,231 @@
     <meta property="og:title" content="Mark Zuckerberg &mdash; Résumé" />
     <meta property="og:type" content="website" />
     <title>Résumé</title>
-
     <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap&subset=cyrillic"
       rel="stylesheet"
-      href="https://binary-studio-academy.github.io/stage-2/assets/stylesheets/base.css"
     />
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <main>
-      <article>
-        <div class="page" style="border-color: midnightblue">
-          <div class="stackable grid">
-            <div class="row">
-              <div class="three wide center aligned column">
-                <img
-                  src="./images/Mark_Elliot_Zuckerberg.jpg"
-                  alt="Mark Elliot Zuckerberg"
-                  width="170"
-                />
-              </div>
-              <div class="thirteen wide column">
-                <div class="stackable grid">
-                  <div class="sixteen wide column">
-                    <h1>Mark Elliot Zuckerberg</h1>
-                    <div class="job">American aspiring programmer</div>
-                    <ul class="contacts">
-                      <li>
-                        <a
-                          href="https://www.facebook.com/zuck"
-                          rel="author"
-                          class="facebook"
-                          >https://www.facebook.com/zuck</a
-                        >
-                      </li>
-                      <li>
-                        <a
-                          href="https://www.instagram.com/zuck"
-                          rel="author"
-                          class="instagram"
-                          >https://www.instagram.com/zuck</a
-                        >
-                      </li>
-                      <li>
-                        <a
-                          href="https://github.com/mark-zuckerberg"
-                          rel="author"
-                          class="git-hub"
-                          >https://github.com/mark-zuckerberg</a
-                        >
-                      </li>
-                      <li>
-                        <a
-                          href=" https://twitter.com/finkd"
-                          rel="author"
-                          class="twitter"
-                        >
-                          https://twitter.com/finkd</a
-                        >
-                      </li>
-                    </ul>
+      <div class="wrapper">
+        <!-- Aside container -->
+        <aside class="sidebar">
+          <div class="img-box">
+            <img
+              src="./images/Mark_Elliot_Zuckerberg.jpg"
+              alt="Mark Elliot Zuckerberg"
+              width="280"
+            />
+          </div>
+
+          <!-- Contacts container -->
+          <div class="sidebar-container-item">
+            <h3 class="sidebar-title">Contacts</h3>
+            <ul class="contakt-container">
+              <li class="contact-item">
+                <span>Phone:</span>
+                <a
+                  href="tel:(202)9398907"
+                  title="to call"
+                  class="contacts-link link-underline"
+                  >(202) 939-8907</a
+                >
+              </li>
+              <li class="contact-item">
+                <span>Email:</span>
+                <a href="mailto:zuckerberg@gmail.com" class="contacts-link"
+                  >zuckerberg@gmail.com</a
+                >
+              </li>
+            </ul>
+            <ul class="social-networks">
+              <li>
+                <a href="https://www.facebook.com/zuck" class="social-link">
+                  <svg class="social-svg">
+                    <use href="./images/icon-sprite.svg#facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/zuck" class="social-link">
+                  <svg class="social-svg">
+                    <use href="./images/icon-sprite.svg#instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/mark-zuckerberg" class="git-hub">
+                  <svg class="social-svg">
+                    <use href="./images/icon-sprite.svg#github"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href=" https://twitter.com/finkd" class="twitter">
+                  <svg class="social-svg">
+                    <use href="./images/icon-sprite.svg#twitter"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Tech Skills container -->
+          <div class="sidebar-container-item">
+            <h3 class="sidebar-title">Tech Skills</h3>
+            <ul class="sidebar-list">
+              <li class="sidebar-list-item"><span>HTML5</span></li>
+              <li class="sidebar-list-item"><span>CSS3</span></li>
+              <li class="sidebar-list-item"><span>GIT</span></li>
+              <li class="sidebar-list-item"><span>WebPack</span></li>
+              <li class="sidebar-list-item"><span>JavaScript</span></li>
+              <li class="sidebar-list-item"><span>React.js</span></li>
+              <li class="sidebar-list-item"><span>Node.js</span></li>
+            </ul>
+          </div>
+
+          <!-- Soft Skills container -->
+          <div class="sidebar-container-item">
+            <h3 class="sidebar-title">Soft Skills</h3>
+            <ul class="sidebar-list">
+              <li class="sidebar-list-item"><span>Scrum</span></li>
+              <li class="sidebar-list-item"><span>Agile</span></li>
+              <li class="sidebar-list-item"><span>GTD</span></li>
+              <li class="sidebar-list-item"><span>Teamwork</span></li>
+            </ul>
+          </div>
+
+          <div class="sidebar-container-item">
+            <h3 class="sidebar-title">Languages</h3>
+            <ul class="sidebar-list">
+              <li class="sidebar-list-item"><span>English</span></li>
+              <li class="sidebar-list-item"><span>French</span></li>
+              <li class="sidebar-list-item"><span>Chinese</span></li>
+              <li class="sidebar-list-item"><span>Latin</span></li>
+              <li class="sidebar-list-item"><span>Hebrew</span></li>
+            </ul>
+          </div>
+        </aside>
+
+        <!-- About me conteiner -->
+        <div class="container-about-me">
+          <div>
+            <p class="subtitle">Front-End Developer</p>
+            <h1>Mark Elliot Zuckerberg</h1>
+            <p class="description">
+              Front-end developer with several years of experience in
+              development various applications. I have already created my own
+              small project called Facebook. Reached the maximum level in its
+              development, after which it became boring. Soon he became
+              interested in the project of his friend - React and decided to
+              study it.
+            </p>
+          </div>
+
+          <!-- Projects container -->
+          <div>
+            <h3 class="main-title">Projects</h3>
+            <ol class="main-list">
+              <li class="main-list-item">
+                <span class="main-list-link">
+                  <a href="https://www.facebook.com/"
+                    >https://www.facebook.com/</a
+                  >
+                  ...........................
+                </span>
+                [<span class="main-list-link"
+                  >HTML5, CSS3, JavaScript, Rest API, JSON</span
+                >
+                ]
+              </li>
+            </ol>
+          </div>
+
+          <!-- Experience container -->
+          <div>
+            <h3 class="main-title">Work Experience</h3>
+
+            <div>
+              <h4 class="subtitle-content">
+                Front-End Developer
+                <span class="orange">Chan Zuckerberg Initiative</span>
+              </h4>
+              <span class="subtitle-h2"
+                >December 2015 - up to now <b>|</b> Palo Alto</span
+              >
+              <ul class="main-list">
+                <li>I am engaged in charity work.</li>
+                <li>
+                  I run a fund for the development of various sciences,
+                  including javascript.
+                </li>
+                <li>Layout small pages for the company.</li>
+                <li>Learning Kanban.</li>
+              </ul>
+            </div>
+
+            <div>
+              <h4 class="subtitle-content">
+                Actor
+                <span class="orange">The Simpsons</span>
+              </h4>
+              <span class="subtitle-h2"
+                >Jun 2016 - November 2017 <b>|</b> Palo Alto</span
+              >
+              <ul class="main-list">
+                <li>Voiced his character in the cartoon of the same name</li>
+                <li>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <h4 class="subtitle-content">
+                Ideological inspirer
+                <span class="orange">Facebook</span>
+              </h4>
+              <span class="subtitle-h2"
+                >December 2004 - up to now <b>|</b> White Plains</span
+              >
+              <ul class="main-list">
+                <li>
+                  I wrote in Pascal comparing arrays through nested loops.
+                </li>
+                <li>Rules of the bugs of armless colleagues.</li>
+                <li>
+                  I asked for money from fellow students to pay for hosting and
+                  buy a domain.
+                </li>
+                <li>
+                  Figured out how to set up an ssl certificate for a facebook
+                  domain.
+                </li>
+                <li>
+                  He made fun of Harvard students by posting pictures of them on
+                  his social network .
+                </li>
+              </ul>
+            </div>
+
+            <!-- Education -->
+            <h3 class="main-title">Education</h3>
+            <div>
+              <h4 class="subtitle-content-fotter">Harvard University</h4>
+              <p class="subtitle">Computer Science and Psychology</p>
+              <span class="subtitle-h2"
+                >Septermber 2002 - April 2004 <b>|</b> USA
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <article>      
+             
+                    
+                    
                   </div>
                   <div class="sixteen wide mobile only column">
                     <div class="divider"></div>
@@ -257,7 +423,7 @@
             </div>
           </div>
         </div>
-      </article>
+      </article> -->
     </main>
   </body>
 </html>
