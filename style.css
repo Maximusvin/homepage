@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  padding: 40px;
+  background: #f5f7fa;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: #fff;
+  display: flex;
+  box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+}
+
+.sidebar {
+  width: 370px;
+  padding: 40px 0;
+  background: #1e2939;
+  color: #fff;
+}
+
+.img-box {
+  text-align: center;
+}
+
+.sidebar-container-item {
+  margin-left: 40px;
+  margin-top: 55px;
+  margin-right: 40px;
+}
+
+.sidebar-title {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #ff6b08;
+}
+
+.contakt-container {
+  margin-bottom: 20px;
+}
+
+.contact-item {
+  margin-top: 7px;
+  list-style: none;
+}
+
+.contacts-link {
+  color: #858b93;
+}
+
+.link-underline {
+  text-decoration: none;
+}
+
+.contact-item span {
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-right: 10px;
+}
+
+.social-networks {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.social-svg {
+  width: 20px;
+  height: 20px;
+  fill: #858b93;
+  transition: fill 0.2s linear;
+}
+
+.social-svg:hover {
+  fill: #ff6b08;
+}
+
+.social-networks li:not(:last-child) {
+  margin-right: 15px;
+}
+
+.sidebar-list {
+  margin-left: 15px;
+  color: #ff6b08;
+}
+
+.sidebar-list span {
+  color: #fff;
+}
+
+.sidebar-list-item {
+  margin-top: 10px;
+}
+
+/* About me container */
+.container-about-me {
+  padding: 80px 90px;
+  width: 830px;
+  color: #595959;
+}
+
+.subtitle {
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 12px;
+  color: #000;
+}
+
+.main-title {
+  font-size: 22px;
+  font-weight: 700;
+  margin-top: 55px;
+  color: #000;
+}
+
+h1 {
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 89px;
+  color: #000;
+}
+
+.description {
+  line-height: 24px;
+  margin-bottom: 65px;
+}
+
+.main-list {
+  margin-left: 15px;
+  margin-top: 9px;
+}
+
+.main-list-item {
+  font-weight: 700;
+  line-height: 24px;
+  color: #000;
+}
+
+.main-list-link {
+  font-weight: 400;
+  margin-left: 5px;
+  color: #595959;
+}
+
+.main-list-item a {
+  text-decoration: none;
+}
+
+.subtitle-content {
+  margin-top: 25px;
+  margin-bottom: 7px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #000;
+}
+
+.orange {
+  color: #ff6b08;
+}
+
+.subtitle-h2 {
+  color: #a8a8a8;
+  font-size: 12px;
+}
+
+.main-list li {
+  line-height: 24px;
+}
+
+.subtitle-content-fotter {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #ff6b08;
+}
