@@ -1,5 +1,6 @@
-# Homepage
+# Resume
 
-My very own personal website. Basically this is just a résumé.
+## Mark Zuckerberg, Frontend React developer
 
-🧙Hocus-pocus!
+[Resume](https://maximusvin.github.io/homepage/)
+[Repository](https://github.com/Maximusvin/homepage)
